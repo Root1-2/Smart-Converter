@@ -15,10 +15,19 @@ public class Main {
                 "\t\t------------------------------");
 
 
+        while (true) {
+            Scanner in = new Scanner(System.in);
 
-        Scanner in = new Scanner(System.in);
-        System.out.println("Please choice your option: ");
-        int choice = in.nextInt();
+            System.out.println("\n\t\tWe are offering a few items :\n\t\t=============================");
+            System.out.println("1.Currency conversion");
+            System.out.println("2.Area conversion");
+            System.out.println("3.Speed conversion");
+            System.out.println("4.Temperature conversion");
+            System.out.println("5.About Us");
+            System.out.println("6.Exit\n");
+            System.out.println("Please enter any of the above option: ");
+
+            int choice = in.nextInt();
 
             switch (choice) {
                 case 1:
@@ -26,19 +35,30 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("Area conversion");
+                    areaConversion.display();
                     break;
                 case 3:
                     System.out.println("Speed conversion");
                     break;
                 case 4:
                     System.out.println("Temperature conversion");
+                    temperatureConversion.display();
                     break;
                 case 5:
-                    System.out.println("Here you can see us: \n"+
-                                       "====================");
+                    System.out.println("Here you can see us: \n" +
+                            "====================");
                     aboutUs.display();
                     break;
+                case 6:
+                    System.out.println("Thanks for using this app....Give us your feedback on....");
+                    System.exit(0);
+                default:
+                    System.out.println("Incorrect Choice");
+                    System.exit(0);
+                    break;
+
 
             }
         }
     }
+}
