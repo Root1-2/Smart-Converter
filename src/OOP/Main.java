@@ -48,6 +48,7 @@ public class Main {
                 case 5:
                     System.out.println("Time Conversoin");
                     timeConversion.display();
+                    break;
                 case 6:
                     System.out.println("Here you can see us: \n" +
                             "====================");
