@@ -23,8 +23,9 @@ public class Main {
             System.out.println("2.Area conversion");
             System.out.println("3.Speed conversion");
             System.out.println("4.Temperature conversion");
-            System.out.println("5.About Us");
-            System.out.println("6.Exit\n");
+            System.out.println("5. Time Conversion");
+            System.out.println("6.About Us");
+            System.out.println("7.Exit\n");
             System.out.println("Please enter any of the above option: ");
 
             int choice = in.nextInt();
@@ -45,11 +46,14 @@ public class Main {
                     temperatureConversion.display();
                     break;
                 case 5:
+                    System.out.println("Time Conversoin");
+                    timeConversion.display();
+                case 6:
                     System.out.println("Here you can see us: \n" +
                             "====================");
                     aboutUs.display();
                     break;
-                case 6:
+                case 7:
                     System.out.println("Thanks for using this app....Give us your feedback on....");
                     System.exit(0);
                 default:
