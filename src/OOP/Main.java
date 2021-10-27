@@ -1,7 +1,8 @@
 package OOP;
 import java.util.Scanner;
 
-public class Main {
+public class Main 
+{
 
     public static void main(String[] args) {
 
@@ -15,7 +16,6 @@ public class Main {
                 "\t\t------------------------------");
 
 
-        while (true) {
             Scanner in = new Scanner(System.in);
 
             System.out.println("\n\t\tWe are offering a few items :\n\t\t=============================");
@@ -65,5 +65,4 @@ public class Main {
 
             }
         }
-    }
 }
