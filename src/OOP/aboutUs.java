@@ -41,7 +41,7 @@ public class aboutUs extends Main
                         "01797224414"
                 );
 
-        System.out.println("\nWOULD YOU LIKE  BACK TO MAIN MENU ");
+        System.out.println("\nWOULD YOU LIKE TO GO BACK TO MAIN MENU ");
         System.out.println("< 1 > YES");
         System.out.println("< 2 > NO");
 
