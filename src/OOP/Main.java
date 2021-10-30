@@ -10,7 +10,7 @@ public class Main
         Scanner in = new Scanner(System.in);
 
         System.out.println("\t\t\t\t\t\t\t\t\t\t***************************\n" +
-                "\t\t\t\t\t\t\t\t\t\t*    SMART CONVERTER    *\n" +
+                "\t\t\t\t\t\t\t\t\t\t*    SMART CONVERTER      *\n" +
                 "\t\t\t\t\t\t\t\t\t\t***************************\n\n");
 
         System.out.println("\n\n\t\t\t\t\t\t\t\tCHOOSE AN OPTION :\n\t\t\t\t\t\t\t================================");
