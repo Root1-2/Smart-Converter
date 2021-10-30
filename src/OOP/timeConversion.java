@@ -10,6 +10,7 @@ public class timeConversion
         Scanner sc = new Scanner(System.in);
 
         System.out.println("\n\t\tMENU:\n\t\t=====");
+        System.out.println("PLEASE NOTE THAT THE TIME FORMAT IS 24-HOUR");
         System.out.println("1.CURRENT TIME.");
         System.out.println("2.BANGLADESH -> LONDON.");
         System.out.println("3.BANGLADESH -> AMERICA.");
