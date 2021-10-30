@@ -31,7 +31,7 @@ public class currencyConversion
                 float x1 = sc.nextFloat();
                 double y1 = (x1/85.61);
 
-                System.out.printf("YOUR CURRENCY IN DOLLAR IS: %.2f\n", y1);
+                System.out.printf("YOUR CURRENCY IN DOLLAR IS: %.2f$\n", y1);
                 break;
 
             case 2:
@@ -39,7 +39,7 @@ public class currencyConversion
                 float x2 = sc.nextFloat();
 
                 double y2 = (x2/99.42);
-                System.out.printf("YOUR CURRENCY IN EURO IS: %.2f\n", y2);
+                System.out.printf("YOUR CURRENCY IN EURO IS: %.2f€\n", y2);
                 break;
 
             case 3:
@@ -47,7 +47,7 @@ public class currencyConversion
                 float x3 = sc.nextFloat();
                 double y3 = (x3/1.14);
 
-                System.out.printf("YOUR CURRENCY IN RUPEE IS: %.2f\n", y3);
+                System.out.printf("YOUR CURRENCY IN RUPEE IS: %.2f₹\n", y3);
                 break;
 
             case 4:
@@ -55,7 +55,7 @@ public class currencyConversion
                 float x4 = sc.nextFloat();
                 double y4 = (x4/69.3);
 
-                System.out.printf("YOUR CURRENCY IN CANADIAN DOLLAR IS: %.2f\n", y4);
+                System.out.printf("YOUR CURRENCY IN CANADIAN DOLLAR IS: %.2f$\n", y4);
                 break;
 
             case 5:
@@ -63,7 +63,7 @@ public class currencyConversion
                 float x5 = sc.nextFloat();
                 double y5 = (x5/15.36);
 
-                System.out.printf("YOUR CURRENCY IN BRAZILIAN REAL IS: %.2f\n", y5);
+                System.out.printf("YOUR CURRENCY IN BRAZILIAN REAL IS: %.2fR$\n", y5);
                 break;
 
             case 6:
@@ -71,7 +71,7 @@ public class currencyConversion
                 float x6 = sc.nextFloat();
                 double y6 = (x6/22.83);
 
-                System.out.printf("YOUR CURRENCY IN SAUDIAN REAL IS : %.2f\n", y6);
+                System.out.printf("YOUR CURRENCY IN SAUDIAN REAL IS : %.2fSAR\n", y6);
                 break;
 
             case 7:
@@ -79,14 +79,14 @@ public class currencyConversion
                 float x7 = sc.nextFloat();
                 double y7 = (x7/64.41);
 
-                System.out.printf("YOUR CURRENCY IN ARGENTINE PESO IS: %.2f\n", y7);
+                System.out.printf("YOUR CURRENCY IN ARGENTINE PESO IS: %.2fARS\n", y7);
                 break;
 
             case 8:
                 System.out.println("ENTER TK: ");
                 float x8 = sc.nextFloat();
                 double y8 = (x8/64.42);
-                System.out.printf("YOUR CURRENCY IN AUSTRALIAN DOLLAR IS: %.2f\n", y8);
+                System.out.printf("YOUR CURRENCY IN AUSTRALIAN DOLLAR IS: %.2fAU$\n", y8);
                 break;
 
             case 9:
@@ -94,7 +94,7 @@ public class currencyConversion
                 float x9 = sc.nextFloat();
                 double y9 = (x9/23.52);
 
-                System.out.printf("YOUR CURRENCY IN QATARI RIYAL IS: %.2f\n", y9);
+                System.out.printf("YOUR CURRENCY IN QATARI RIYAL IS: %.2fQAR\n", y9);
                 break;
 
             case 10:
@@ -102,7 +102,7 @@ public class currencyConversion
                 float x10 = sc.nextFloat();
                 double y10 = (x10/222.444);
 
-                System.out.printf("YOUR CURRENCY IN OMANI REAL IS: %.2f\n", y10);
+                System.out.printf("YOUR CURRENCY IN OMANI REAL IS: %.2fOMR\n", y10);
                 break;
 
             default:
