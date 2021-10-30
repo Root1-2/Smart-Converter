@@ -52,7 +52,7 @@ public class Main
                 System.exit(0);
 
             default:
-                System.out.println("Incorrect Choice");
+                System.out.println("INCORRECT CHOICE");
                 System.out.println("WOULD YOU LIKE TO TRY AGAIN");
                 System.out.println("< 1 > YES");
                 System.out.println("< 2 > NO");
