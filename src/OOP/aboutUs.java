@@ -21,8 +21,8 @@ public class aboutUs extends Main
                 "\t\t\t\t\t\t\tOPTIONS TO ADD TONS OF FEATURES IN THE UPCOMING UPDATES\n\n\n");
 
         System.out.println("\t\t\t\t\t\t\t\t\t\t*** ABOUT US***\n\n\n\n"+
-                "\t\t\t\tA GROUP OF FIVE MEMBERS WORKING TOGETHER FROM PLACES "+
-                "BATCHES OF DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING (LEADING UNIVERSITY)\n");
+                "\t\t\t\t  A GROUP OF FIVE MEMBERS WORKING TOGETHER FROM PLACES "+
+                "BATCHES OF\n\t\t\t\t DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING (LEADING UNIVERSITY)\n");
 
         System.out.println("\n\t\t\t\t\t\t\t< 1 > MD. JAFRUL HAQUE RAFI         2012020259\n"+
                 "\t\t\t\t\t\t\t< 2 > TASFIAH TAHSIN AHSAN          2012020258\n"+
@@ -31,15 +31,15 @@ public class aboutUs extends Main
                 "\t\t\t\t\t\t\t< 5 > JANNATUL FERDOUS SABRIN       2012020251\n");
 
         System.out.println("\n\t\t\t\t\t\t\t\t\t\t*** CONTACT INFO***\n");
-        System.out.println("\t\t\t\t\t\t\tFOR ANY KIND OF HELP YOU CAN CONTRACT WITH US USING BELOW INFORMATION:\n\n"+
+        System.out.println("\t\t\t\t\t\tFOR ANY KIND OF HELP YOU CAN CONTRACT WITH US USING BELOW INFORMATION:\n\n"+
                 "\t\t\t\t\t\t\tMAIL:\n\t\t\t\t\t\t\tcse_2012020259@lus.ac.bd\n" +
-                        "\t\t\t\t\t\t\tcse_2012020255@lus.ac.bd\n" +
-                        "\t\t\t\t\t\t\tcse_2012020251@lus.ac.bd\n" +
-                        "\t\t\t\t\t\t\tcse_2012020258@lus.ac.bd\n" +
-                        "\t\t\t\t\t\t\tcse_2012020229@lus.ac.bd\n\n" +
-                        "\t\t\t\t\t\t\tMOBILE : \n" +
-                        "\t\t\t\t\t\t\t01797224414"
-                );
+                "\t\t\t\t\t\t\tcse_2012020255@lus.ac.bd\n" +
+                "\t\t\t\t\t\t\tcse_2012020251@lus.ac.bd\n" +
+                "\t\t\t\t\t\t\tcse_2012020258@lus.ac.bd\n" +
+                "\t\t\t\t\t\t\tcse_2012020229@lus.ac.bd\n\n" +
+                "\t\t\t\t\t\t\tMOBILE : \n" +
+                "\t\t\t\t\t\t\t01797224414"
+        );
 
         System.out.println("\nWOULD YOU LIKE  BACK TO MAIN MENU ");
         System.out.println("< 1 > YES");
