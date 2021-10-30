@@ -8,16 +8,16 @@ public class currencyConversion
         Scanner sc = new Scanner(System.in);
 
         System.out.println("\n\t\tMENU:\n\t\t=====");
-        System.out.println("< 1 > TK -> Dollar ");
-        System.out.println("< 2 > TK -> Euro");
-        System.out.println("< 3 > TK -> Rupee");
-        System.out.println("< 4 > TK -> Canadian Dollar");
-        System.out.println("< 5 > TK -> Brazilan Real");
-        System.out.println("< 6 > TK -> Saudian Real");
-        System.out.println("< 7 > TK -> Argentine Peso");
-        System.out.println("< 8 > TK -> Australian dollar");
-        System.out.println("< 9 > TK -> Qatari riyal");
-        System.out.println("< 10 > TK -> Omani rial\n");
+        System.out.println("< 1 > TK -> DOLLAR ");
+        System.out.println("< 2 > TK -> EURO");
+        System.out.println("< 3 > TK -> RUPEE");
+        System.out.println("< 4 > TK -> CANADIAN DOLLAR");
+        System.out.println("< 5 > TK -> BRAZILIAN REAL");
+        System.out.println("< 6 > TK -> SAUDIAN REAL");
+        System.out.println("< 7 > TK -> ARGENTINE PESO");
+        System.out.println("< 8 > TK -> AUSTRALIAN DOLLAR");
+        System.out.println("< 9 > TK -> QATARI RIYAL");
+        System.out.println("< 10 > TK -> OMANI RIAL\n");
 
 
         System.out.println("PLEASE ENTER ANY OF THE OPTIONS ABOVE: ");
