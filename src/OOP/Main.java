@@ -5,8 +5,8 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
+        //System.out.print("\033[H\033[2J");
+        //System.out.flush();
         Scanner in = new Scanner(System.in);
 
         System.out.println("\t\t\t\t\t\t\t\t\t\t***************************\n" +
@@ -29,30 +29,26 @@ public class Main
         switch (choice)
         {
             case 1:
-                System.out.println("\t\t\t\t\t\t\t\t\t\tCURRENCY CONVERSION");
                 currencyConversion.display();
                 break;
             case 2:
-                System.out.println("Area conversion");
                 areaConversion.display();
                 break;
             case 3:
-                System.out.println("Temperature conversion");
                 temperatureConversion.display();
 
                 break;
             case 4:
-                System.out.println("Time conversion");
                 timeConversion.display();
                 break;
 
             case 5:
-                System.out.println("Here you can see us: \n" +
+                System.out.println("ABOUT US" +
                         "====================");
                 aboutUs.display();
                 break;
             case 6:
-                System.out.println("Thanks for using this app....Give us your feedback on....");
+                System.out.println("THANK YOU FOR USING OUR PROGRAM. WE HOPE YOU LIKE IT");
                 System.exit(0);
 
             default:
@@ -70,7 +66,7 @@ public class Main
                     }
                     else if (option == 2)
                     {
-                        System.out.println("Thanks for using this app....Give us your feedback on....");
+                        System.out.println("THANK YOU FOR USING OUR PROGRAM. WE HOPE YOU LIKE IT");
                         System.exit(0);
                     }
                     else
